@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./index.css";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Accordion />
+      <footer className="attribution text-sm text-center absolute bottom-[0.5rem] left-0 right-0">
+        <div>
+          Challenge by{" "}
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a href="https://github.com/Jenny-Eikens" target="_blank">
+            Jennifer Eikens
+          </a>
+          .
+        </div>
+      </footer>
+    </>
   );
 }
 

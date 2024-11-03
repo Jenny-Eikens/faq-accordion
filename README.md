@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# Frontend Mentor - FAQ accordion solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/faq-accordion-wyfFdeBwBz). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### The challenge
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Users should be able to:
 
-### `npm test`
+- Hide/Show the answer to a question when the question is clicked
+- Navigate the questions and hide/show answers using keyboard navigation alone
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshot
 
-### `npm run build`
+![Preview mobile](./design/preview_mobile.jpg)
+![Preview desktop](./design/preview_desktop.jpg)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Links
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## My process
 
-### `npm run eject`
+### Built with
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Semantic HTML5 markup
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Typescript
+- [React](https://reactjs.org/) - JS library
+- [TailwindCSS](https://tailwindcss.com/) - CSS framework
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### What I learned
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+I learned when to use grid rather than flexbox and how to work with it. I'm not very confident with using a grid layout as I typically opt for flexbox. However, this project has shown me instances where grid is the better option. In the example below, I initially tried to use max-height: 0 for when the FAQ item is closed and max-height: 100% for when it is open. However, this prevented the transition effect because, as I learned, the browser has to calculate the height based on the answer's content every time. Using grid fractions instead solved this issue:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```jsx
+<div className={`grid overflow-hidden transition-[grid-template-rows] duration-300 ease-in-out
+  ${isOpen ? "grid-rows-[1fr] mt-3" : "grid-rows-[0fr]"}`}
+  >
+```
 
-## Learn More
+I also improved my understanding of CSS transitions as I used them for expanding and collapsing the answers.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Continued development
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This was my first time working with TailwindCSS and I plan on using it again in future projects. I wanted to use a CSS framework but didn't like the inability to customize elements that comes with Bootstrap. Although the HTML ends up looking quite cluttered, I like the simplicity and flexibility of Tailwind.
+
+### Useful resources
+
+- [axe DevTools - Web Accessibility Testing](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - This Chrome extension helped me test the accessibility of my website to make sure it is as inclusive as possible.
+
+## Author
+
+- Website - [Jennifer Eikens](https://jenny-eikens.github.io/portfolio-page/)
+- Frontend Mentor - [@Jenny-Eikens](https://www.frontendmentor.io/profile/Jenny-Eikens)
+- GitHub - [Jenny-Eikens](https://github.com/Jenny-Eikens)
