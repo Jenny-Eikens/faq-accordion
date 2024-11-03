@@ -50,6 +50,7 @@ export default function Accordion() {
   );
 }
 
+/* array of questions */
 const questions = [
   {
     id: 0,
