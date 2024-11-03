@@ -11,9 +11,9 @@ export default function FAQ({ isOpen, onClick, question }: FAQProps) {
     <>
       <div className="py-4 px-2 md:py-5 mx-3 border-b border-graypurple border-opacity-[0.1] border-solid last-of-type:border-b-0">
         <button className="w-full flex justify-between" onClick={onClick}>
-          <h2 className="text-sm md:text-base my-auto text-left w-[70%] md:w-[90%] leading-tight text-darkpurple font-[600] hover:text-svgpink transition ease-in-out duration-150">
+          <span className="text-sm md:text-base my-auto text-left w-[70%] md:w-[90%] leading-tight text-darkpurple font-[600] hover:text-svgpink transition ease-in-out duration-150">
             {question.question}
-          </h2>
+          </span>
           <span>
             {isOpen ? (
               <svg
