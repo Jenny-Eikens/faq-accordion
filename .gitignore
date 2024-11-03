@@ -1,0 +1,19 @@
+style-guide.md
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Ignore these for GitHub Pages
+.DS_Store
