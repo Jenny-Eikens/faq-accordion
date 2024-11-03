@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/faq-accordion/static/css/main.a48f1a76.css",
-    "main.js": "/faq-accordion/static/js/main.63f5568f.js",
+    "main.js": "/faq-accordion/static/js/main.e76bb9f0.js",
     "static/js/453.4940cf0d.chunk.js": "/faq-accordion/static/js/453.4940cf0d.chunk.js",
     "static/media/background-pattern-mobile.svg": "/faq-accordion/static/media/background-pattern-mobile.bbadbddabee663bba888.svg",
     "static/media/background-pattern-desktop.svg": "/faq-accordion/static/media/background-pattern-desktop.621478cf83f8150af604.svg",
     "index.html": "/faq-accordion/index.html",
     "main.a48f1a76.css.map": "/faq-accordion/static/css/main.a48f1a76.css.map",
-    "main.63f5568f.js.map": "/faq-accordion/static/js/main.63f5568f.js.map",
+    "main.e76bb9f0.js.map": "/faq-accordion/static/js/main.e76bb9f0.js.map",
     "453.4940cf0d.chunk.js.map": "/faq-accordion/static/js/453.4940cf0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a48f1a76.css",
-    "static/js/main.63f5568f.js"
+    "static/js/main.e76bb9f0.js"
   ]
 }
