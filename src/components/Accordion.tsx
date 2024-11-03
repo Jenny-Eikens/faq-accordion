@@ -3,7 +3,7 @@ import FAQ from "./FAQ";
 import { useState } from "react";
 
 export default function Accordion() {
-  const [openFAQ, setOpenFAQ] = useState<string | number | null>(0);
+  const [openFAQ, setOpenFAQ] = useState<number | null>(0);
   function handleClick(id: number) {
     if (openFAQ === id) {
       setOpenFAQ(null);
