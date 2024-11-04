@@ -27,3 +27,9 @@ body {
 .attribution a {
   @apply text-svgpink underline;
 }
+
+@media (hover: hover) {
+  .question:hover {
+    @apply text-svgpink;
+  }
+}
