@@ -868,13 +868,29 @@ body {
   }
 }
 
+@media (hover: none) {
+  .question:hover {
+    color: inherit;
+  }
+}
+
 .last-of-type\:border-b-0:last-of-type {
   border-bottom-width: 0px;
 }
 
-.hover\:text-svgpink:hover {
+.focus\:text-darkpurple:focus {
   --tw-text-opacity: 1;
-  color: rgb(173 40 235 / var(--tw-text-opacity));
+  color: hsl(292 42% 14% / var(--tw-text-opacity));
+}
+
+.focus-visible\:text-darkpurple:focus-visible {
+  --tw-text-opacity: 1;
+  color: hsl(292 42% 14% / var(--tw-text-opacity));
+}
+
+.active\:text-darkpurple:active {
+  --tw-text-opacity: 1;
+  color: hsl(292 42% 14% / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {

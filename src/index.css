@@ -33,3 +33,9 @@ body {
     @apply text-svgpink;
   }
 }
+
+@media (hover: none) {
+  .question:hover {
+    @apply text-inherit;
+  }
+}
