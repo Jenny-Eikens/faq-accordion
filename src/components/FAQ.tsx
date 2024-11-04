@@ -11,7 +11,7 @@ export default function FAQ({ isOpen, onClick, question }: FAQProps) {
     <>
       <div className="py-4 px-2 md:py-5 mx-3 border-b border-graypurple border-opacity-[0.1] border-solid last-of-type:border-b-0">
         <button className="w-full flex justify-between" onClick={onClick}>
-          <span className="text-base md:text-lg my-auto text-left w-[80%] md:w-[90%] leading-tight text-darkpurple font-[600] hover:text-svgpink transition ease-in-out duration-150">
+          <span className="text-base md:text-xl my-auto text-left w-[80%] md:w-[90%] leading-tight text-darkpurple font-[600] hover:text-svgpink transition ease-in-out duration-150">
             {question.question}
           </span>
           <span>
@@ -48,7 +48,7 @@ export default function FAQ({ isOpen, onClick, question }: FAQProps) {
           className={`grid overflow-hidden transition-[grid-template-rows] duration-300 ease-in-out
             ${isOpen ? "grid-rows-[1fr] mt-3" : "grid-rows-[0fr]"}`}
         >
-          <p className="font-[400] text-sm md:text-base w-full leading-normal text-graypurple overflow-hidden">
+          <p className="font-[400] text-sm md:text-lg w-full leading-normal text-graypurple overflow-hidden">
             {question.answer}
           </p>
         </div>

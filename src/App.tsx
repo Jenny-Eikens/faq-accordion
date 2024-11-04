@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Accordion />
-      <footer className="attribution text-sm text-center absolute bottom-[0.5rem] left-0 right-0">
+      <footer className="attribution text-base text-center absolute bottom-[0.5rem] left-0 right-0">
         <div>
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
