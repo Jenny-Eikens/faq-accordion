@@ -31,7 +31,7 @@ export default function Accordion() {
               />
             </svg>
           </span>
-          <header className="ml-3 md:ml-4 text-[1.75rem] md:text-5xl font-[700] text-darkpurple">
+          <header className="ml-3 md:ml-4 text-4xl md:text-5xl font-[700] text-darkpurple relative">
             FAQs
           </header>
         </div>
