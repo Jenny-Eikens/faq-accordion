@@ -28,7 +28,7 @@ body {
   @apply text-svgpink underline;
 }
 
-@media not all and (hover: none) {
+@media (hover: hover) {
   .question:hover {
     @apply text-svgpink;
   }

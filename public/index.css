@@ -861,7 +861,7 @@ body {
   text-decoration-line: underline;
 }
 
-@media not all and (hover: none) {
+@media (hover: hover) {
   .question:hover {
     --tw-text-opacity: 1;
     color: rgb(173 40 235 / var(--tw-text-opacity));
