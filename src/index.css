@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  @apply bg-mobile md:bg-desktop bg-contain bg-no-repeat bg-lightpink flex justify-center items-center m-auto;
+  @apply bg-mobile md:bg-desktop bg-contain bg-no-repeat bg-lightpink flex justify-center items-center;
 }
 
 .attribution a {

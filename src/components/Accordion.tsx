@@ -14,7 +14,7 @@ export default function Accordion() {
 
   return (
     <>
-      <main className="bg-white flex flex-col items-center justify-evenly rounded-[12px] shadow-md w-[85vw] md:w-[55vw] xl:w-[45vw] min-h-[55vh]">
+      <main className="bg-white flex flex-col items-center justify-evenly m-auto rounded-[12px] shadow-md w-[85vw] md:w-[55vw] xl:w-[45vw] min-h-[55vh]">
         <div className="flex w-full justify-start items-center ml-1 mb-1 px-4 pt-5 md:m-1.5 md:mb-4 md:px-6 md:pt-10">
           <span className="flex justify-center">
             <svg

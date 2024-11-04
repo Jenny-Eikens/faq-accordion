@@ -5,8 +5,10 @@ import Accordion from "./components/Accordion";
 function App() {
   return (
     <>
-      <Accordion />
-      <footer className="attribution text-base text-center absolute bottom-[0.5rem] left-0 right-0">
+      <div className="container flex flex-col min-h-[100vh]">
+        <Accordion />
+      </div>
+      <footer className="attribution text-base text-center ">
         <div>
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
