@@ -5,7 +5,7 @@ import Accordion from "./components/Accordion";
 function App() {
   return (
     <>
-      <div className="container flex min-h-[95vh]">
+      <div className="min-h-[95vh] flex justify-center items-center">
         <Accordion />
       </div>
       <footer className="attribution text-base text-center pb-2">
