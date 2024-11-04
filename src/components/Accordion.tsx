@@ -18,7 +18,7 @@ export default function Accordion() {
         <div className="flex w-full justify-start items-center ml-1 mb-1 px-4 pt-5 md:m-1.5 md:mb-4 md:px-6 md:pt-10">
           <span className="flex justify-center">
             <svg
-              className="w-[60%] md:w-[85%]"
+              className="w-[75%] md:w-[85%]"
               xmlns="http://www.w3.org/2000/svg"
               width="40"
               height="41"
@@ -31,7 +31,7 @@ export default function Accordion() {
               />
             </svg>
           </span>
-          <header className="ml-3 md:ml-5 text-4xl md:text-6xl font-[700] text-darkpurple relative">
+          <header className="ml-3 md:ml-5 text-5xl md:text-6xl font-[700] text-darkpurple relative">
             FAQs
           </header>
         </div>
