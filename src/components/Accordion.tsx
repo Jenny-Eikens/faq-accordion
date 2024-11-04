@@ -15,7 +15,7 @@ export default function Accordion() {
   return (
     <>
       <main className="bg-white flex flex-col items-center justify-evenly m-auto rounded-[12px] shadow-md w-[85vw] md:w-[55vw] xl:w-[45vw] min-h-[55vh]">
-        <div className="flex w-full justify-start items-center ml-1 mb-1 px-4 pt-5 md:m-1.5 md:mb-4 md:px-6 md:pt-10">
+        <header className="flex w-full justify-start items-center ml-1 mb-1 px-4 pt-5 md:m-1.5 md:mb-4 md:px-6 md:pt-10">
           <span className="flex justify-center">
             <svg
               className="w-[75%] md:w-[85%]"
@@ -31,10 +31,10 @@ export default function Accordion() {
               />
             </svg>
           </span>
-          <header className="ml-3 md:ml-5 text-5xl md:text-6xl font-[700] text-darkpurple relative">
+          <h1 className="ml-3 md:ml-5 text-5xl md:text-6xl font-[700] text-darkpurple relative">
             FAQs
-          </header>
-        </div>
+          </h1>
+        </header>
         <div className="p-1 pt-0 md:p-4 md:pt-0">
           {questions.map((question) => (
             <FAQ
