@@ -70,6 +70,6 @@ This was my first time working with TailwindCSS and I plan on using it again in 
 
 ## Author
 
-- Website - [Jennifer Eikens](https://jenny-eikens.github.io/portfolio-page/)
+- Website - [Jennifer Eikens](https://jennifereikens.com)
 - Frontend Mentor - [@Jenny-Eikens](https://www.frontendmentor.io/profile/Jenny-Eikens)
 - GitHub - [Jenny-Eikens](https://github.com/Jenny-Eikens)
